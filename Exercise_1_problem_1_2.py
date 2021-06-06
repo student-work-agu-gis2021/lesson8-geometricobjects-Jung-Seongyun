@@ -33,7 +33,7 @@ print(point1.geom_type)
 def create_line_geom(points):
 
   assert type(points)==list,"Input should be a list"
-  assert len(points)>=2"LineString object requires at least two points"
+  assert len(points)>=2,"LineString object requires at least two points"
   line = LineString(points)
   return line
 
