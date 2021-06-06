@@ -126,7 +126,7 @@ def get_centroid(geom):
 # 
 
 #  YOUR CODE HERE 7 to define some objects
-poly1 = create_poly_geom([(0,0),(3,0),(3,3),(0.3)])
+poly1 = create_poly_geom([(0,0),(3,0),(3,3),(0,3)])
 
 # CODE FOR TESTING YOUR SOLUTION
 centroid = get_centroid(poly1)
