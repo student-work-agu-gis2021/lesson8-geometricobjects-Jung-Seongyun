@@ -39,7 +39,7 @@ print(list(data.columns))
 
 # YOUR CODE HERE 3 to define empty lists orig_points and dest_points
 orig_points = []
-dest_poinits = []
+dest_points = []
 
 # CODE FOR TESTING YOUR SOLUTION
 
@@ -74,6 +74,12 @@ print('dest_points length:', len(dest_points))
 
 # YOUR CODE HERE 4 to append points in orig_points and dest_points
 from shapely.geometry import Point
+
+for idx, d in data.iterrows():
+  point_orig = Point(d[0],d[1])
+  point_dest = Point(d[2],d[3])
+  orig_points.append(point_orig)
+  dest_points.append(point_dest)
 
 # CODE FOR TESTING YOUR SOLUTION
 
