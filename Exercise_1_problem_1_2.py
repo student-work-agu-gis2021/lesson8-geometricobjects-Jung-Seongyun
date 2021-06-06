@@ -116,7 +116,7 @@ except Exception as e:
 # 
 
 #  YOUR CODE HERE 6 to define get_centroid()
-def get_centroid(geom)
+def get_centroid(geom):
 
  assert type(geom) == Point or type(geom) == LineString or type(geom) == Polygon,"Input should be a Shapely geometry"
  return geom.centroid
