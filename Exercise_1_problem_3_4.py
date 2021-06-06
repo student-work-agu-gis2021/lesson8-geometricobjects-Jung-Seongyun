@@ -12,8 +12,11 @@
 #raise NotImplementedError()
 import pandas as pd 
 
+fp = 'data/travelTimes_2015_Helsinli.txt'
+data = pd.read_csv(fp,sep=';')
+
 #Check how many rows and columns there are:
-data
+data 
 
 # CODE FOR TESTING YOUR SOLUTION
 
